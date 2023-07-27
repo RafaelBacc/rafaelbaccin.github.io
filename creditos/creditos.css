@@ -42,3 +42,6 @@ body {
     cursor: pointer;
   }
   
+  #popupContainer a {
+    color: rgb(8, 8, 8);
+  }
