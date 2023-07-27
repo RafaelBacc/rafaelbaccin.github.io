@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato/contato.css" />
+    <title>Contato</title>
+</head>
+<body>
+        <form action="https://formsubmit.co/rafaelbacc.contato@gmail.com" method="POST" id="formid">
+            <h3>CONTATE-ME</h3>
+
+            <label for="Nome" class="label">* Nome:</label>
+            <input type="text" name="nome" required id="Nome" class="inputs" maxlength="50">
+
+            <label for="Email" class="label">* Email:</label>
+            <input type="email" name="email" required id="Email" class="inputs" maxlength="50">
+
+            <label for="Assunto" class="label">* Assunto:</label>
+            <input type="text" name="assunto" required id="Assunto" class="inputs" maxlength="100">
+
+            <label for="Mensagem" class="label">* Mensagem:</label>
+            <textarea class="inputs" cols="35" rows="8" id="Mensagem" placeholder="Escreva sua mensagem aqui. Max. 5000 Caracteres." maxlength="5000"  required></textarea>
+
+
+            <button type="submit" id="sendButton">Send</button>
+            <button type="reset">Resetar</button>
+    </div>
+    
+</body>
+</html>

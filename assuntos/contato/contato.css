@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Josefin+Sans:wght@200;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;   
+}
+
+body {
+    display: flex;    
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;  
+    background-color: rgba(36, 0, 128, 0.7);
+}
+
+#formid {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: rgb(29, 29, 29);
+    background-color: white;
+    width: 500px;
+}
+
+#formid h3 {
+    margin: 10px;
+}
+
+.inputs {
+    width: 90%;
+    caret-color: rgb(49, 249, 49);
+    background-color: rgba(139, 139, 139, 0.19);
+    border: none;
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.label {
+    padding-left: 5%;
+}
+
+::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+}
+
+#Mensagem {
+    resize: vertical;
+    height: unset;
+}
+
+button {
+    padding: 5px;
+    width: 50px;
+    align-self: center;
+    font-family: 'Josefin Sans', sans-serif;  
+    border: none;
+    color: rgb(242, 242, 242);
+    width: 120px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #707070;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#sendButton {
+    background-color: rgba(255, 0, 0, 0.634);
+}
+
+#sendButton:active {
+    background-color: rgba(207, 1, 1, 0.734);
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #050124 #FFF9F9;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 9px;
+    width: 9px;
+  }
+
+  *::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #FFF9F9;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #050124;
+  }
+  
+
+  input {
+    font-family: "Arial", sans-serif;
+  }
